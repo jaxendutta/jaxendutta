@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @dutta-anirban
-- 👀 I’m interested in web and software development
+- 👀 I’m interested in software development
 - 🌱 I’m currently a CS undergrad at the University of Waterloo
-- 💞️ I’m looking to collaborate on most languages I'm familiar with
+- 💞️ I’m looking to collaborate
 - 📫 Reach me at a9dutta@uwaterloo.ca
 
 <!---
