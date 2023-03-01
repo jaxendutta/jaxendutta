@@ -1,8 +1,9 @@
-- 👋 Hi, I’m @dutta-anirban
-- 👀 I’m interested in software development
-- 🌱 I’m currently a CS undergrad at the University of Waterloo
+- 👋 Hi, I’m Anirban (@dutta-anirban)!
+- 🌱 I’m currently an undergraduate student at the University of Waterloo
+- 🖥️ I'm majoring in Computer Science with a specialization in Software Engineering
+- 👾 I'm minoring in Computational Mathematics, and Combinatorics and Optimization
 - 💞️ I’m looking to collaborate
-- 📫 Reach me at a9dutta@uwaterloo.ca
+- 📫 Reach me at hi@anirban.ca
 
 <!---
 dutta-anirban/dutta-anirban is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
