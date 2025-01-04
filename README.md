@@ -7,7 +7,7 @@
 - 📚 Learning Advanced NLP Techniques, Optimization, Multimodal HCI
 - 💭 Ask me about AI for Sustainability, Human-AI Interaction, AI Annotation Bias
 - 🌐 Check out more of me! [![Website](https://img.shields.io/badge/-anirban.ca-4285F4?style=flat-square&logo=google-chrome&logoColor=white&link=https://anirban.ca)](https://anirban.ca)
-- 🤝 Let's connect! [![LinkedIn](https://img.shields.io/badge/-jaxen-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jaxen)](https://www.linkedin.com/in/jaxen) [![Email](https://img.shields.io/badge/-hi@anirban.ca-EA4335?style=flat-square&logo=gmail&logoColor=white&link=mailto:hi@anirban.ca)](mailto:hi@anirban.ca)
+- 🤝 Let's connect! [![LinkedIn](https://img.shields.io/badge/LinkedIn-jaxen-blue?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/jaxen)](https://www.linkedin.com/in/jaxen) [![Email](https://img.shields.io/badge/-hi@anirban.ca-EA4335?style=flat-square&logo=gmail&logoColor=white&link=mailto:hi@anirban.ca)](mailto:hi@anirban.ca)
 
 ### 📊 Some Stats
 
