@@ -3,7 +3,7 @@
 > *Trying to make the world a better place, 1 loc at a time* ⚡
 
 ### 🚀 What I'm up to
-- 🧪 Currently working on [KWC-CMA EV Charging Network Optimization](https://github.com/jaxendutta/kwc-ev-charging-network-opt) + something secret :))
+- 🧪 Currently working on [RGAP](https://github.com/jaxendutta/rgap) + something secret :))
 - 📚 Learning Advanced NLP Techniques, Optimization, Multimodal HCI
 - 💭 Ask me about AI for Sustainability, Human-AI Interaction, AI Annotation Bias
 - 🌐 Check out more of me! [![Website](https://img.shields.io/badge/-anirban.ca-4285F4?style=flat-square&logo=google-chrome&logoColor=white&link=https://anirban.ca)](https://anirban.ca)
@@ -95,9 +95,6 @@
 </table>
 
 ---
-<div align="center">
-  <i>✨ Thanks for dropping by ✨</i>
-</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jaxendutta/jaxendutta/output/github-contribution-grid-snake-dark.svg">
