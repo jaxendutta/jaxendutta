@@ -1,4 +1,4 @@
-# Hi, I'm Jaxen / Anirban
+# Hi, I'm Jaxen
 
 > *"Trying to make the world a better place, 1 loc at a time"*
 
