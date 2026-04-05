@@ -1,12 +1,16 @@
-# Hi, I'm Jaxen
+# Hi, I'm Jaxen ^w^
 
 > *"Trying to make the world a better place, 1 loc at a time"*
 
 ### What I'm up to
-- Currently working on [RGAP](https://github.com/jaxendutta/rgap) + something secret :))
+- Currently working on EMMA :D
 - Learning Advanced NLP Techniques, Optimization, Multimodal HCI
 - Ask me about AI for Sustainability, Human-AI Interaction, AI Annotation Bias
-- Check out more of my stuff on [anirban.ca](https://anirban.ca)
+
+> [!NOTE]
+> #### RGAP is now live at [rgap.anirban.ca](https://rgap.anirban.ca)!
+
+Check out more of my stuff on [anirban.ca](https://anirban.ca)
 
 <!---
 dutta-anirban/dutta-anirban is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
