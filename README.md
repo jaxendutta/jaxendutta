@@ -3,12 +3,12 @@
 > *"Trying to make the world a better place, 1 loc at a time"*
 
 ### What I'm up to
-- Currently working on EMMA :D
+- Currently working on my thesis
 - Learning Advanced NLP Techniques, Optimization, Multimodal HCI
 - Ask me about AI for Sustainability, Human-AI Interaction, AI Annotation Bias
 
 > [!NOTE]
-> #### RGAP is now live at [rgap.anirban.ca](https://rgap.anirban.ca)!
+> #### [ RGAP ] is now live at [rgap.anirban.ca](https://rgap.anirban.ca)!
 
 Check out more of my stuff on [anirban.ca](https://anirban.ca)
 
