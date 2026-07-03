@@ -8,7 +8,7 @@
 - Ask me about AI for Sustainability, Human-AI Interaction, AI Annotation Bias
 
 > [!NOTE]
-> #### [ RGAP ] is now live at [rgap.anirban.ca](https://rgap.anirban.ca)!
+> #### _[ RGAP ] is now live at [rgap.anirban.ca](https://rgap.anirban.ca)!_
 
 Check out more of my stuff on [anirban.ca](https://anirban.ca)
 
