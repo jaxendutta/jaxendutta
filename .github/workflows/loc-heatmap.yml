@@ -26,7 +26,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.LOC_HEATMAP_TOKEN }}
           GH_USERNAME: ${{ github.repository_owner }}
-          GIT_AUTHOR_EMAILS: ${{ secrets.GIT_AUTHOR_EMAILS }}
+          GIT_AUTHOR_EMAILS: ${{ vars.GIT_AUTHOR_EMAILS }}
         run: python generate_loc_heatmap.py
 
       - name: Commit and push heatmap
