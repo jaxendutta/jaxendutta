@@ -1,0 +1,33 @@
+name: Global LOC Heatmap Generator
+on:
+  schedule:
+    - cron: "0 4 * * *" # Runs automatically every night at 4:00 AM UTC
+  workflow_dispatch:   # Enables you to manually click a button to test it immediately
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Profile Repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python Engine
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install System Dependencies
+        run: pip install pandas requests
+
+      - name: Run Processing Engine
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: python generate_loc_heatmap.py
+
+      - name: Commit and Update README Asset
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@://github.com'
+          git add loc_heatmap.svg
+          git commit -m "Automated update of interactive LOC map" || exit 0
+          git push
