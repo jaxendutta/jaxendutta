@@ -10,61 +10,33 @@ TOKEN = os.environ.get("METRICS_TOKEN")
 
 if not TOKEN:
     print("❌ ERROR: METRICS_TOKEN environment variable is missing!")
-    print("Please make sure you added METRICS_TOKEN to your repository secrets.")
     exit(1)
 
-# FIXED: Using modern 'Bearer' authorization header to prevent HTML redirection
-HEADERS = {
-    "Authorization": f"Bearer {TOKEN}",
-    "Accept": "application/vnd.github+json",
-    "X-GitHub-Api-Version": "2022-11-28"
-}
+HEADERS = {"Authorization": f"token {TOKEN}"}
 DATA = {}
 
-# 2. Fetch all repositories (Public and Private)
+# 2. Fetch all repositories
 print("Fetching repository list...")
 repos_url = "https://github.com"
 response = requests.get(repos_url, headers=HEADERS)
 
-# Check if the API request actually succeeded
 if response.status_code != 200:
-    print(f"❌ API ERROR ({response.status_code}): Could not fetch repositories.")
-    print(f"Response text from GitHub: {response.text[:500]}")
+    print(f"❌ API ERROR ({response.status_code})")
     exit(1)
 
-try:
-    repos = response.json()
-except Exception as e:
-    print(f"❌ JSON Parsing Error: {e}")
-    print(f"Raw body snippet received: {response.text[:500]}")
-    exit(1)
-
-if not isinstance(repos, list):
-    print("❌ Unexpected API response format. Expected a list of repositories.")
-    exit(1)
-
+repos = response.json()
 print(f"Found {len(repos)} repositories. Starting analysis...")
 
 # 3. Analyze each repository
 for repo in repos:
     repo_name = repo["name"]
-    clone_url = repo["clone_url"]
-    
-    # Construct authenticated clone URL to securely access private repos
-    # GitHub Actions handles token masking automatically in the logs
-    clone_url = clone_url.replace("https://", f"https://x-access-token:{TOKEN}@")
-
-    print(f"Analyzing {repo_name}...")
+    clone_url = repo["clone_url"].replace("https://", f"https://x-access-token:{TOKEN}@")
     
     try:
-        # Perform a shallow clone (depth 1000 is faster but gets plenty of history)
-        subprocess.run(["git", "clone", "--depth=1000", clone_url, repo_name], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        
-        # Pull git logs from the repository
+        subprocess.run(["git", "clone", "--depth=500", clone_url, repo_name], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         cmd = "git log --shortstat --date=short --pretty=format:'%ad'"
         result = subprocess.check_output(cmd, shell=True, cwd=repo_name).decode('utf-8', errors='ignore')
         
-        # Parse dates and LOC counts
         current_date = None
         for line in result.split('\n'):
             line = line.strip()
@@ -76,57 +48,84 @@ for repo in repos:
                 loc = sum(int(p.strip().split()) for p in parts if "insertion" in p or "deletion" in p)
                 DATA[current_date] = DATA.get(current_date, 0) + loc
                 
-        # Clean up directory to preserve disk space on runner
         shutil.rmtree(repo_name)
-    except Exception as e:
-        print(f"Skipping {repo_name} due to an error: {e}")
+    except Exception:
+        pass
 
-# 4. Generate Interactive SVG Calendar Grid
-print("Building interactive SVG grid...")
+# 4. Generate GitHub-Standard Structured SVG Layout
+print("Building responsive SVG matrix layout...")
 end_date = datetime.today()
 start_date = end_date - timedelta(weeks=52)
 
-# Adjust start_date to the nearest previous Sunday so rows align cleanly (Sun-Sat)
-while start_date.weekday() != 6:
+while start_date.weekday() != 6: # Align timeline cleanly to Sunday
     start_date -= timedelta(days=1)
 
 current = start_date
-svg_squares = ""
+columns_svg = ""
+current_column_squares = ""
+month_labels_svg = ""
+
+last_month = None
 x_offset = 0
 
 while current <= end_date:
     date_str = current.strftime('%Y-%m-%d')
     loc_count = DATA.get(date_str, 0)
     
-    # Calculate GitHub-like shades of green based on LOC volume
+    # Standard GitHub Green Palette
     color = "#ebedf0"
     if loc_count > 0: color = "#9be9a8"
     if loc_count > 100: color = "#40c463"
     if loc_count > 500: color = "#30a14e"
     if loc_count > 1500: color = "#216e39"
     
-    # Monday is 0, Sunday is 6 in Python. Shift it so Sunday is row 0.
-    weekday_idx = (current.weekday() + 1) % 7
-    y_offset = weekday_idx * 15
+    weekday_idx = (current.weekday() + 1) % 7 # Map Sunday to 0
+    y_offset = weekday_idx * 13 # 10px box + 3px gap
     
-    # Wrap elements with a <title> tag for instant native tooltips on hover
-    svg_squares += f"""
-    <rect x="{x_offset}" y="{y_offset}" width="11" height="11" fill="{color}" rx="2" ry="2">
-        <title>{loc_count:,} lines of code modified on {current.strftime('%b %d, %Y')}</title>
-    </rect>
-    """
+    # Add interactive square
+    current_column_squares += f"""
+        <rect x="0" y="{y_offset}" width="10" height="10" fill="{color}" rx="2" ry="2">
+            <title>{loc_count:,} lines of code modified on {current.strftime('%b %d, %Y')}</title>
+        </rect>"""
     
-    if weekday_idx == 6: # Move to next column after Saturday
-        x_offset += 15
+    # Handle Month labels timeline tracking
+    if current.day <= 7 and current.strftime('%b') != last_month:
+        month_labels_svg += f'<text x="{x_offset}" y="-10" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#57606a">{current.strftime("%b")}</text>\n'
+        last_month = current.strftime('%b')
+        
+    if weekday_idx == 6: # Saturday wraps the column group container cleanly
+        columns_svg += f'<g transform="translate({x_offset}, 0)">{current_column_squares}</g>\n'
+        current_column_squares = ""
+        x_offset += 13 # 10px box width + 3px gap
+        
     current += timedelta(days=1)
 
-# Compile into a complete, standalone vector graphic
-full_svg = f"""<svg width="830" height="130" xmlns="http://w3.org">
-    <g transform="translate(15, 15)">
-        {svg_squares}
+# Catch residual trailing squares if the timeline ends mid-week
+if current_column_squares:
+    columns_svg += f'<g transform="translate({x_offset}, 0)">{current_column_squares}</g>\n'
+
+# Full standalone semantic document with standardized dimensions and structural styling wrappers
+full_svg = f"""<svg width="720" height="140" viewBox="0 0 720 140" xmlns="http://w3.org">
+    <style>
+        text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #57606a; font-size: 9px; }}
+    </style>
+    <!-- Background Frame Wrapper -->
+    <rect width="100%" height="100%" fill="transparent" />
+    
+    <g transform="translate(30, 25)">
+        <!-- Day Labels -->
+        <text x="-25" y="18">Mon</text>
+        <text x="-25" y="44">Wed</text>
+        <text x="-25" y="70">Fri</text>
+        
+        <!-- Month Labels Header Row -->
+        {month_labels_svg}
+        
+        <!-- Interactive Node Calendar Grid -->
+        {columns_svg}
     </g>
 </svg>"""
 
 with open('loc_heatmap.svg', 'w') as f:
     f.write(full_svg)
-print("Successfully generated loc_heatmap.svg!")
+print("Successfully generated beautifully structured loc_heatmap.svg!")
