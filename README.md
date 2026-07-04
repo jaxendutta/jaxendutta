@@ -12,6 +12,8 @@
 
 Check out more of my stuff on [anirban.ca](https://anirban.ca)
 
+![LOC Heatmap](./loc_heatmap.svg?raw=true)
+
 <!---
 dutta-anirban/dutta-anirban is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
