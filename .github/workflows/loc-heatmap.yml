@@ -1,12 +1,14 @@
 name: Global LOC Heatmap Generator
 on:
   schedule:
-    - cron: "0 4 * * *" # Runs automatically every night at 4:00 AM UTC
-  workflow_dispatch:   # Enables you to manually click a button to test it immediately
+    - cron: "0 4 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Crucial permission modification rule block
     steps:
       - name: Checkout Profile Repo
         uses: actions/checkout@v4
@@ -22,6 +24,7 @@ jobs:
       - name: Run Processing Engine
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Pass internal default fallback credential maps
         run: python generate_loc_heatmap.py
 
       - name: Commit and Update README Asset
