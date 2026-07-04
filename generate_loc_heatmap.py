@@ -185,9 +185,24 @@ def build_svg(data, weeks=53):
         col += 1
 
     width = max(40 + col * step, 300)
-    height = 46 + 7 * step + 20
+    grid_height = 7 * step
+    legend_y = grid_height + 16
+    height = 46 + grid_height + 36
 
     header = f"{total_loc:,} lines of code changed in the last year"
+
+    legend_squares = ""
+    legend_x = width - 30 - (5 * step) - 6
+    for lvl in range(5):
+        legend_squares += (
+            f'<rect x="{legend_x + lvl * step}" y="{legend_y}" width="{cell}" '
+            f'height="{cell}" rx="2" ry="2" class="lvl{lvl}"/>'
+        )
+    legend = (
+        f'<text x="{legend_x - 30}" y="{legend_y + 9}" class="lbl">Less</text>'
+        f'{legend_squares}'
+        f'<text x="{legend_x + 5 * step + 6}" y="{legend_y + 9}" class="lbl">More</text>'
+    )
 
     # Level colors follow the browser's / GitHub's own light-vs-dark preference.
     # `color-scheme` set by the embedding page propagates into this image's
@@ -221,6 +236,7 @@ def build_svg(data, weeks=53):
     <text x="-24" y="62" class="lbl">Fri</text>
     {''.join(month_labels)}
     {''.join(columns_svg)}
+    {legend}
   </g>
 </svg>'''
     return svg
