@@ -202,7 +202,15 @@ def build_svg(data, weeks=53):
         columns_svg.append(f'<g transform="translate({col * step},0)">{col_squares}</g>')
         col += 1
 
-    width = max(40 + col * step, 300)
+    # Legend coordinates are local to the <g transform="translate(30,44)"> group,
+    # so the available local width is (viewBox width - 30). Reserve room for the
+    # "More" label itself, not just the colored squares, or it renders past the
+    # right edge of the canvas and gets clipped.
+    grid_local_width = col * step
+    more_label_width = 34
+    legend_block_width = (5 * step) + 6 + more_label_width
+    legend_x = grid_local_width - legend_block_width
+    width = max(30 + grid_local_width + 10, 300)
     grid_height = 7 * step
     legend_y = grid_height + 16
     height = 46 + grid_height + 36
@@ -210,7 +218,6 @@ def build_svg(data, weeks=53):
     header = f"{total_loc:,} lines of code changed in the last year"
 
     legend_squares = ""
-    legend_x = width - 30 - (5 * step) - 6
     for lvl in range(5):
         legend_squares += (
             f'<rect x="{legend_x + lvl * step}" y="{legend_y}" width="{cell}" '
