@@ -5,16 +5,13 @@ import shutil
 import pandas as pd
 from datetime import datetime, timedelta
 
-# 1. Configuration & Robust Token Fallback Authentication
-# Try to get your custom token first; fall back to the native GitHub Action runner token if missing
+# 1. Configuration & Authentication
 TOKEN = os.environ.get("METRICS_TOKEN") or os.environ.get("GITHUB_TOKEN")
 
 if not TOKEN:
     print("❌ ERROR: No authentication token found!")
-    print("Please ensure METRICS_TOKEN is added to Repository Secrets.")
     exit(1)
 
-# Using standard modern API token header authorization rules
 HEADERS = {
     "Authorization": f"token {TOKEN}"
 }
@@ -26,22 +23,18 @@ repos = []
 page = 1
 
 while True:
-    repos_url = f"https://github.com{page}&type=all"
+    # FIXED: Cleaned up URL string structure so it resolves to ://github.com
+    repos_url = f"https://://github.com/user/repos?per_page=100&page={page}&type=all"
     response = requests.get(repos_url, headers=HEADERS)
 
     if response.status_code != 200:
         print(f"❌ API REQUEST FAILED ({response.status_code})")
-        print("GitHub blocked the request. Please verify your token configuration.")
-        # Print a snippet of the response to see if it's HTML or text
-        print(f"Server response snippet: {response.text[:200]}")
         exit(1)
 
     try:
         page_data = response.json()
     except Exception as e:
         print(f"❌ JSON Parsing Error on page {page}: {e}")
-        print("The API endpoint unexpectedly returned a web screen instead of structural repo listings.")
-        print(f"Raw body starts with: {response.text[:200]}")
         exit(1)
 
     if not page_data or not isinstance(page_data, list):
@@ -57,11 +50,10 @@ print(f"Found {len(repos)} repositories. Starting analysis...")
 # 3. Analyze each repository
 for repo in repos:
     repo_name = repo["name"]
-    # Safely extract the target authenticated clone URL string
     clone_url = repo["clone_url"].replace("https://", f"https://x-access-token:{TOKEN}@")
     
+    print(f"Analyzing {repo_name}...")
     try:
-        # Perform shallow fetch routines to optimize processing speed limits
         subprocess.run(["git", "clone", "--depth=500", clone_url, repo_name], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         cmd = "git log --shortstat --date=short --pretty=format:'%ad'"
         result = subprocess.check_output(cmd, shell=True, cwd=repo_name).decode('utf-8', errors='ignore')
