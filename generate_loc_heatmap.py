@@ -126,22 +126,24 @@ def clone_and_count(repo, token, author_emails, workdir):
     return per_day
 
 
+def level_for(loc):
+    """Bucket LOC into GitHub's 5 intensity levels (0=empty ... 4=darkest)."""
+    if loc <= 0:
+        return 0
+    if loc <= 50:
+        return 1
+    if loc <= 200:
+        return 2
+    if loc <= 600:
+        return 3
+    return 4
+
+
 def build_svg(data, weeks=53):
     end_date = datetime.today().date()
     start_date = end_date - timedelta(weeks=weeks)
     while start_date.weekday() != 6:  # snap to preceding Sunday
         start_date -= timedelta(days=1)
-
-    def color_for(loc):
-        if loc <= 0:
-            return "#ebedf0"
-        if loc <= 50:
-            return "#9be9a8"
-        if loc <= 200:
-            return "#40c463"
-        if loc <= 600:
-            return "#30a14e"
-        return "#216e39"
 
     cell, gap = 11, 3
     step = cell + gap
@@ -150,16 +152,21 @@ def build_svg(data, weeks=53):
     last_month = None
     current = start_date
     col = 0
+    total_loc = 0
+    active_days = 0
 
     col_squares = ""
     while current <= end_date:
         date_str = current.strftime("%Y-%m-%d")
         loc = data.get(date_str, 0)
+        if loc > 0:
+            total_loc += loc
+            active_days += 1
         weekday_idx = (current.weekday() + 1) % 7  # Sunday = 0
         y = weekday_idx * step
         col_squares += (
             f'<rect x="0" y="{y}" width="{cell}" height="{cell}" rx="2" ry="2" '
-            f'fill="{color_for(loc)}"><title>{loc:,} LOC changed on '
+            f'class="lvl{level_for(loc)}"><title>{loc:,} LOC changed on '
             f'{current.strftime("%b %d, %Y")}</title></rect>\n'
         )
         month = current.strftime("%b")
@@ -177,12 +184,38 @@ def build_svg(data, weeks=53):
         columns_svg.append(f'<g transform="translate({col * step},0)">{col_squares}</g>')
         col += 1
 
-    width = 40 + col * step
-    height = 20 + 7 * step + 20
+    width = max(40 + col * step, 300)
+    height = 46 + 7 * step + 20
 
+    header = f"{total_loc:,} lines of code changed in the last year"
+
+    # Level colors follow the browser's / GitHub's own light-vs-dark preference.
+    # `color-scheme` set by the embedding page propagates into this image's
+    # own rendering context in modern browsers, so this adapts to GitHub's
+    # light/dark toggle without needing two separate files.
     svg = f'''<svg viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
-  <style>.lbl {{ font-size:10px; fill:#57606a; }}</style>
-  <g transform="translate(30,20)">
+  <style>
+    :root {{ color-scheme: light dark; }}
+    .lbl {{ font-size:10px; fill:#57606a; }}
+    .hdr {{ font-size:13px; fill:#24292f; font-weight:600; }}
+    .lvl0 {{ fill:#ebedf0; }}
+    .lvl1 {{ fill:#9be9a8; }}
+    .lvl2 {{ fill:#40c463; }}
+    .lvl3 {{ fill:#30a14e; }}
+    .lvl4 {{ fill:#216e39; }}
+    @media (prefers-color-scheme: dark) {{
+      .lbl {{ fill:#8b949e; }}
+      .hdr {{ fill:#c9d1d9; }}
+      .lvl0 {{ fill:#161b22; }}
+      .lvl1 {{ fill:#0e4429; }}
+      .lvl2 {{ fill:#006d32; }}
+      .lvl3 {{ fill:#26a641; }}
+      .lvl4 {{ fill:#39d353; }}
+    }}
+  </style>
+  <rect width="100%" height="100%" fill="transparent"/>
+  <text x="6" y="18" class="hdr">{header}</text>
+  <g transform="translate(30,44)">
     <text x="-24" y="10" class="lbl">Mon</text>
     <text x="-24" y="36" class="lbl">Wed</text>
     <text x="-24" y="62" class="lbl">Fri</text>
