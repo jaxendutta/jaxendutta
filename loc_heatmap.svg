@@ -1,388 +1,408 @@
-<svg viewBox="0 0 796 138" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
-  <style>.lbl { font-size:10px; fill:#57606a; }</style>
-  <g transform="translate(30,20)">
+<svg viewBox="0 0 796 164" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+  <style>
+    :root { color-scheme: light dark; }
+    .lbl { font-size:10px; fill:#57606a; }
+    .hdr { font-size:13px; fill:#24292f; font-weight:600; }
+    .lvl0 { fill:#ebedf0; }
+    .lvl1 { fill:#9be9a8; }
+    .lvl2 { fill:#40c463; }
+    .lvl3 { fill:#30a14e; }
+    .lvl4 { fill:#216e39; }
+    @media (prefers-color-scheme: dark) {
+      .lbl { fill:#8b949e; }
+      .hdr { fill:#c9d1d9; }
+      .lvl0 { fill:#161b22; }
+      .lvl1 { fill:#0e4429; }
+      .lvl2 { fill:#006d32; }
+      .lvl3 { fill:#26a641; }
+      .lvl4 { fill:#39d353; }
+    }
+  </style>
+  <rect width="100%" height="100%" fill="transparent"/>
+  <text x="6" y="18" class="hdr">4,405,529 lines of code changed in the last year</text>
+  <g transform="translate(30,44)">
     <text x="-24" y="10" class="lbl">Mon</text>
     <text x="-24" y="36" class="lbl">Wed</text>
     <text x="-24" y="62" class="lbl">Fri</text>
     <text x="14" y="-6" class="lbl">Jul</text><text x="70" y="-6" class="lbl">Aug</text><text x="140" y="-6" class="lbl">Sep</text><text x="196" y="-6" class="lbl">Oct</text><text x="252" y="-6" class="lbl">Nov</text><text x="322" y="-6" class="lbl">Dec</text><text x="378" y="-6" class="lbl">Jan</text><text x="448" y="-6" class="lbl">Feb</text><text x="504" y="-6" class="lbl">Mar</text><text x="560" y="-6" class="lbl">Apr</text><text x="616" y="-6" class="lbl">May</text><text x="686" y="-6" class="lbl">Jun</text><text x="742" y="-6" class="lbl">Jul</text>
-    <g transform="translate(0,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 22, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 23, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 24, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 25, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 26, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 27, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 28, 2025</title></rect>
-</g><g transform="translate(14,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 29, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 30, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 01, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 02, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 03, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 04, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 05, 2025</title></rect>
-</g><g transform="translate(28,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 06, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 07, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 08, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#40c463"><title>87 LOC changed on Jul 09, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 10, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>24,006 LOC changed on Jul 11, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>7,825 LOC changed on Jul 12, 2025</title></rect>
-</g><g transform="translate(42,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>45 LOC changed on Jul 13, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,208 LOC changed on Jul 14, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 15, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>836 LOC changed on Jul 16, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 17, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 18, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 19, 2025</title></rect>
-</g><g transform="translate(56,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 20, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 21, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 22, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 23, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 24, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 25, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,321 LOC changed on Jul 26, 2025</title></rect>
-</g><g transform="translate(70,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 27, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 28, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,292 LOC changed on Jul 29, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,167 LOC changed on Jul 30, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jul 31, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 01, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 02, 2025</title></rect>
-</g><g transform="translate(84,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 03, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 04, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 05, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,625 LOC changed on Aug 06, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 07, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 08, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 09, 2025</title></rect>
-</g><g transform="translate(98,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 10, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 11, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>5,631 LOC changed on Aug 12, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 13, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 14, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,183 LOC changed on Aug 15, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 16, 2025</title></rect>
-</g><g transform="translate(112,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 17, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 18, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 19, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 20, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,913 LOC changed on Aug 21, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,058 LOC changed on Aug 22, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 23, 2025</title></rect>
-</g><g transform="translate(126,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>335 LOC changed on Aug 24, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 25, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 26, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,035 LOC changed on Aug 27, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 28, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Aug 29, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>654 LOC changed on Aug 30, 2025</title></rect>
-</g><g transform="translate(140,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>11,418 LOC changed on Aug 31, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>31 LOC changed on Sep 01, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Sep 02, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>425 LOC changed on Sep 03, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>4,251 LOC changed on Sep 04, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,294 LOC changed on Sep 05, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,735 LOC changed on Sep 06, 2025</title></rect>
-</g><g transform="translate(154,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,574 LOC changed on Sep 07, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,032 LOC changed on Sep 08, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#40c463"><title>53 LOC changed on Sep 09, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Sep 10, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>954 LOC changed on Sep 11, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Sep 12, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Sep 13, 2025</title></rect>
-</g><g transform="translate(168,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,287 LOC changed on Sep 14, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,887 LOC changed on Sep 15, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>10 LOC changed on Sep 16, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>9 LOC changed on Sep 17, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>485 LOC changed on Sep 18, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#40c463"><title>162 LOC changed on Sep 19, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>595 LOC changed on Sep 20, 2025</title></rect>
-</g><g transform="translate(182,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Sep 21, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,605 LOC changed on Sep 22, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Sep 23, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Sep 24, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>7,774 LOC changed on Sep 25, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>5,931 LOC changed on Sep 26, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Sep 27, 2025</title></rect>
-</g><g transform="translate(196,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,163 LOC changed on Sep 28, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Sep 29, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Sep 30, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 01, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 02, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 03, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 04, 2025</title></rect>
-</g><g transform="translate(210,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 05, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 06, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 07, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 08, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 09, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 10, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 11, 2025</title></rect>
-</g><g transform="translate(224,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 12, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 13, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 14, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 15, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 16, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 17, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 18, 2025</title></rect>
-</g><g transform="translate(238,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 19, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 20, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 21, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 22, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 23, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 24, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 25, 2025</title></rect>
-</g><g transform="translate(252,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 26, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 27, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 28, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>319 LOC changed on Oct 29, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 30, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Oct 31, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>4,819 LOC changed on Nov 01, 2025</title></rect>
-</g><g transform="translate(266,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 02, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 03, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,732 LOC changed on Nov 04, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 05, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 06, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 07, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 08, 2025</title></rect>
-</g><g transform="translate(280,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 09, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 10, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,940 LOC changed on Nov 11, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 12, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 13, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 14, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 15, 2025</title></rect>
-</g><g transform="translate(294,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 16, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 17, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>22,069 LOC changed on Nov 18, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,183 LOC changed on Nov 19, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 20, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#40c463"><title>105 LOC changed on Nov 21, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 22, 2025</title></rect>
-</g><g transform="translate(308,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 23, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 24, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 25, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 26, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 27, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 28, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 29, 2025</title></rect>
-</g><g transform="translate(322,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Nov 30, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 01, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 02, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 03, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 04, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 05, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 06, 2025</title></rect>
-</g><g transform="translate(336,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 07, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 08, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 09, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 10, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 11, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 12, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 13, 2025</title></rect>
-</g><g transform="translate(350,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 14, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>4 LOC changed on Dec 15, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 16, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 17, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 18, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 19, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 20, 2025</title></rect>
-</g><g transform="translate(364,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 21, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 22, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 23, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>2 LOC changed on Dec 24, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 25, 2025</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>6,335 LOC changed on Dec 26, 2025</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Dec 27, 2025</title></rect>
-</g><g transform="translate(378,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,399 LOC changed on Dec 28, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,931 LOC changed on Dec 29, 2025</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,558 LOC changed on Dec 30, 2025</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>4,490 LOC changed on Dec 31, 2025</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,971 LOC changed on Jan 01, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,540 LOC changed on Jan 02, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,638 LOC changed on Jan 03, 2026</title></rect>
-</g><g transform="translate(392,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,693 LOC changed on Jan 04, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>897 LOC changed on Jan 05, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>4,535 LOC changed on Jan 06, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,019 LOC changed on Jan 07, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,591 LOC changed on Jan 08, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>8,489 LOC changed on Jan 09, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>31,770 LOC changed on Jan 10, 2026</title></rect>
-</g><g transform="translate(406,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>5,852 LOC changed on Jan 11, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,172 LOC changed on Jan 12, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,370 LOC changed on Jan 13, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,588 LOC changed on Jan 14, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>46 LOC changed on Jan 15, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jan 16, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jan 17, 2026</title></rect>
-</g><g transform="translate(420,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jan 18, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,544 LOC changed on Jan 19, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>20,779 LOC changed on Jan 20, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,581 LOC changed on Jan 21, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,919 LOC changed on Jan 22, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>334 LOC changed on Jan 23, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,306 LOC changed on Jan 24, 2026</title></rect>
-</g><g transform="translate(434,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,823 LOC changed on Jan 25, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>394 LOC changed on Jan 26, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>808 LOC changed on Jan 27, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>774 LOC changed on Jan 28, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>4,989 LOC changed on Jan 29, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jan 30, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,712 LOC changed on Jan 31, 2026</title></rect>
-</g><g transform="translate(448,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,185 LOC changed on Feb 01, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>6,559 LOC changed on Feb 02, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>13,864 LOC changed on Feb 03, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>755 LOC changed on Feb 04, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,386 LOC changed on Feb 05, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Feb 06, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Feb 07, 2026</title></rect>
-</g><g transform="translate(462,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>11,129 LOC changed on Feb 08, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,778 LOC changed on Feb 09, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>4,268 LOC changed on Feb 10, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>521 LOC changed on Feb 11, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>282 LOC changed on Feb 12, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Feb 13, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>660 LOC changed on Feb 14, 2026</title></rect>
-</g><g transform="translate(476,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>616 LOC changed on Feb 15, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>43,811 LOC changed on Feb 16, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>49,872 LOC changed on Feb 17, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Feb 18, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Feb 19, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Feb 20, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Feb 21, 2026</title></rect>
-</g><g transform="translate(490,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Feb 22, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Feb 23, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Feb 24, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Feb 25, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,105 LOC changed on Feb 26, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Feb 27, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Feb 28, 2026</title></rect>
-</g><g transform="translate(504,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 01, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 02, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 03, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,840 LOC changed on Mar 04, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 05, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 06, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>4,751 LOC changed on Mar 07, 2026</title></rect>
-</g><g transform="translate(518,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>448 LOC changed on Mar 08, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 09, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 10, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 11, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 12, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 13, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 14, 2026</title></rect>
-</g><g transform="translate(532,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 15, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 16, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 17, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 18, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 19, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 20, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 21, 2026</title></rect>
-</g><g transform="translate(546,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>508 LOC changed on Mar 22, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 23, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>4,741 LOC changed on Mar 24, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 25, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>5,102 LOC changed on Mar 26, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>201 LOC changed on Mar 27, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 28, 2026</title></rect>
-</g><g transform="translate(560,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 29, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>2 LOC changed on Mar 30, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Mar 31, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Apr 01, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Apr 02, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>156,012 LOC changed on Apr 03, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,204,335 LOC changed on Apr 04, 2026</title></rect>
-</g><g transform="translate(574,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>12,041 LOC changed on Apr 05, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>12,469 LOC changed on Apr 06, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>16,840 LOC changed on Apr 07, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>20,349 LOC changed on Apr 08, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>20,871 LOC changed on Apr 09, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>6,939 LOC changed on Apr 10, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>591 LOC changed on Apr 11, 2026</title></rect>
-</g><g transform="translate(588,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,111,454 LOC changed on Apr 12, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>10,705 LOC changed on Apr 13, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>5,229 LOC changed on Apr 14, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,993 LOC changed on Apr 15, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>28 LOC changed on Apr 16, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>6,442 LOC changed on Apr 17, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>13,917 LOC changed on Apr 18, 2026</title></rect>
-</g><g transform="translate(602,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>4,025 LOC changed on Apr 19, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>4,449 LOC changed on Apr 20, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,314 LOC changed on Apr 21, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,038 LOC changed on Apr 22, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>5,344 LOC changed on Apr 23, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,994 LOC changed on Apr 24, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>7,062 LOC changed on Apr 25, 2026</title></rect>
-</g><g transform="translate(616,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>9,521 LOC changed on Apr 26, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>5,501 LOC changed on Apr 27, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>7,696 LOC changed on Apr 28, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>4,959 LOC changed on Apr 29, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>37 LOC changed on Apr 30, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>6,975 LOC changed on May 01, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,083 LOC changed on May 02, 2026</title></rect>
-</g><g transform="translate(630,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>503 LOC changed on May 03, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>25,557 LOC changed on May 04, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,154 LOC changed on May 05, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>377 LOC changed on May 06, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,604 LOC changed on May 07, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>22,425 LOC changed on May 08, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on May 09, 2026</title></rect>
-</g><g transform="translate(644,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on May 10, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on May 11, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>4,557 LOC changed on May 12, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#40c463"><title>192 LOC changed on May 13, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>6,443 LOC changed on May 14, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,150 LOC changed on May 15, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>23,903 LOC changed on May 16, 2026</title></rect>
-</g><g transform="translate(658,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>915 LOC changed on May 17, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on May 18, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on May 19, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on May 20, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on May 21, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>594 LOC changed on May 22, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on May 23, 2026</title></rect>
-</g><g transform="translate(672,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>12,116 LOC changed on May 24, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>519 LOC changed on May 25, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>282 LOC changed on May 26, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>868 LOC changed on May 27, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>9,466 LOC changed on May 28, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>4 LOC changed on May 29, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>115,467 LOC changed on May 30, 2026</title></rect>
-</g><g transform="translate(686,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>8,539 LOC changed on May 31, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>4,349 LOC changed on Jun 01, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>436 LOC changed on Jun 02, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,790 LOC changed on Jun 03, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>658 LOC changed on Jun 04, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>398 LOC changed on Jun 05, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 06, 2026</title></rect>
-</g><g transform="translate(700,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 07, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 08, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,637 LOC changed on Jun 09, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,335 LOC changed on Jun 10, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,523 LOC changed on Jun 11, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>736 LOC changed on Jun 12, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 13, 2026</title></rect>
-</g><g transform="translate(714,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 14, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#30a14e"><title>442 LOC changed on Jun 15, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>4,312 LOC changed on Jun 16, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>732 LOC changed on Jun 17, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#9be9a8"><title>33 LOC changed on Jun 18, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 19, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 20, 2026</title></rect>
-</g><g transform="translate(728,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 21, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 22, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>6,189 LOC changed on Jun 23, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,182 LOC changed on Jun 24, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>782 LOC changed on Jun 25, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,542 LOC changed on Jun 26, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 27, 2026</title></rect>
-</g><g transform="translate(742,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" fill="#40c463"><title>94 LOC changed on Jun 28, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,208 LOC changed on Jun 29, 2026</title></rect>
-<rect x="0" y="28" width="11" height="11" rx="2" ry="2" fill="#ebedf0"><title>0 LOC changed on Jun 30, 2026</title></rect>
-<rect x="0" y="42" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>3,940 LOC changed on Jul 01, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>21,103 LOC changed on Jul 02, 2026</title></rect>
-<rect x="0" y="70" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>1,751 LOC changed on Jul 03, 2026</title></rect>
-<rect x="0" y="84" width="11" height="11" rx="2" ry="2" fill="#216e39"><title>2,144 LOC changed on Jul 04, 2026</title></rect>
+    <g transform="translate(0,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 22, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 23, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 24, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 25, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 26, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 27, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 28, 2025</title></rect>
+</g><g transform="translate(14,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 29, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 30, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 01, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 02, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 03, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 04, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 05, 2025</title></rect>
+</g><g transform="translate(28,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 06, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 07, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 08, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl2"><title>87 LOC changed on Jul 09, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 10, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>24,006 LOC changed on Jul 11, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>7,825 LOC changed on Jul 12, 2025</title></rect>
+</g><g transform="translate(42,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl1"><title>45 LOC changed on Jul 13, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,208 LOC changed on Jul 14, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 15, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>836 LOC changed on Jul 16, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 17, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 18, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 19, 2025</title></rect>
+</g><g transform="translate(56,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 20, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 21, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 22, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 23, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 24, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 25, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,321 LOC changed on Jul 26, 2025</title></rect>
+</g><g transform="translate(70,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 27, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 28, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,292 LOC changed on Jul 29, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,167 LOC changed on Jul 30, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 31, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 01, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 02, 2025</title></rect>
+</g><g transform="translate(84,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 03, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 04, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 05, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,625 LOC changed on Aug 06, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 07, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 08, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 09, 2025</title></rect>
+</g><g transform="translate(98,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 10, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 11, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>5,631 LOC changed on Aug 12, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 13, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 14, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,183 LOC changed on Aug 15, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 16, 2025</title></rect>
+</g><g transform="translate(112,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 17, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 18, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 19, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 20, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,913 LOC changed on Aug 21, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,058 LOC changed on Aug 22, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 23, 2025</title></rect>
+</g><g transform="translate(126,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl3"><title>335 LOC changed on Aug 24, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 25, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 26, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,035 LOC changed on Aug 27, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 28, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Aug 29, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>654 LOC changed on Aug 30, 2025</title></rect>
+</g><g transform="translate(140,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>11,418 LOC changed on Aug 31, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl1"><title>31 LOC changed on Sep 01, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Sep 02, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl3"><title>425 LOC changed on Sep 03, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>4,251 LOC changed on Sep 04, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,294 LOC changed on Sep 05, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,735 LOC changed on Sep 06, 2025</title></rect>
+</g><g transform="translate(154,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,574 LOC changed on Sep 07, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,032 LOC changed on Sep 08, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl2"><title>53 LOC changed on Sep 09, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Sep 10, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>954 LOC changed on Sep 11, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Sep 12, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Sep 13, 2025</title></rect>
+</g><g transform="translate(168,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,287 LOC changed on Sep 14, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,887 LOC changed on Sep 15, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl1"><title>10 LOC changed on Sep 16, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl1"><title>9 LOC changed on Sep 17, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl3"><title>485 LOC changed on Sep 18, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl2"><title>162 LOC changed on Sep 19, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl3"><title>595 LOC changed on Sep 20, 2025</title></rect>
+</g><g transform="translate(182,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Sep 21, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,605 LOC changed on Sep 22, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Sep 23, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Sep 24, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>7,774 LOC changed on Sep 25, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>5,931 LOC changed on Sep 26, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Sep 27, 2025</title></rect>
+</g><g transform="translate(196,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,163 LOC changed on Sep 28, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Sep 29, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Sep 30, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 01, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 02, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 03, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 04, 2025</title></rect>
+</g><g transform="translate(210,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 05, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 06, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 07, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 08, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 09, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 10, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 11, 2025</title></rect>
+</g><g transform="translate(224,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 12, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 13, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 14, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 15, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 16, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 17, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 18, 2025</title></rect>
+</g><g transform="translate(238,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 19, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 20, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 21, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 22, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 23, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 24, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 25, 2025</title></rect>
+</g><g transform="translate(252,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 26, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 27, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 28, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl3"><title>319 LOC changed on Oct 29, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 30, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Oct 31, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>4,819 LOC changed on Nov 01, 2025</title></rect>
+</g><g transform="translate(266,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 02, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 03, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,732 LOC changed on Nov 04, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 05, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 06, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 07, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 08, 2025</title></rect>
+</g><g transform="translate(280,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 09, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 10, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,940 LOC changed on Nov 11, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 12, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 13, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 14, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 15, 2025</title></rect>
+</g><g transform="translate(294,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 16, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 17, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>22,069 LOC changed on Nov 18, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,183 LOC changed on Nov 19, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 20, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl2"><title>105 LOC changed on Nov 21, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 22, 2025</title></rect>
+</g><g transform="translate(308,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 23, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 24, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 25, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 26, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 27, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 28, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 29, 2025</title></rect>
+</g><g transform="translate(322,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Nov 30, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 01, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 02, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 03, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 04, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 05, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 06, 2025</title></rect>
+</g><g transform="translate(336,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 07, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 08, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 09, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 10, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 11, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 12, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 13, 2025</title></rect>
+</g><g transform="translate(350,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 14, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl1"><title>4 LOC changed on Dec 15, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 16, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 17, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 18, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 19, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 20, 2025</title></rect>
+</g><g transform="translate(364,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 21, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 22, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 23, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl1"><title>2 LOC changed on Dec 24, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 25, 2025</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>6,335 LOC changed on Dec 26, 2025</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Dec 27, 2025</title></rect>
+</g><g transform="translate(378,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,399 LOC changed on Dec 28, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,931 LOC changed on Dec 29, 2025</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,558 LOC changed on Dec 30, 2025</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>4,490 LOC changed on Dec 31, 2025</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,971 LOC changed on Jan 01, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,540 LOC changed on Jan 02, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,638 LOC changed on Jan 03, 2026</title></rect>
+</g><g transform="translate(392,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,693 LOC changed on Jan 04, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>897 LOC changed on Jan 05, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>4,535 LOC changed on Jan 06, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,019 LOC changed on Jan 07, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,591 LOC changed on Jan 08, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>8,489 LOC changed on Jan 09, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>31,770 LOC changed on Jan 10, 2026</title></rect>
+</g><g transform="translate(406,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>5,852 LOC changed on Jan 11, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,172 LOC changed on Jan 12, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,370 LOC changed on Jan 13, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,588 LOC changed on Jan 14, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl1"><title>46 LOC changed on Jan 15, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jan 16, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jan 17, 2026</title></rect>
+</g><g transform="translate(420,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jan 18, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,544 LOC changed on Jan 19, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>20,779 LOC changed on Jan 20, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,581 LOC changed on Jan 21, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,919 LOC changed on Jan 22, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl3"><title>334 LOC changed on Jan 23, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,306 LOC changed on Jan 24, 2026</title></rect>
+</g><g transform="translate(434,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,823 LOC changed on Jan 25, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl3"><title>394 LOC changed on Jan 26, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>808 LOC changed on Jan 27, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>774 LOC changed on Jan 28, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>4,989 LOC changed on Jan 29, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jan 30, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,712 LOC changed on Jan 31, 2026</title></rect>
+</g><g transform="translate(448,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,185 LOC changed on Feb 01, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>6,559 LOC changed on Feb 02, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>13,864 LOC changed on Feb 03, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>755 LOC changed on Feb 04, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,386 LOC changed on Feb 05, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Feb 06, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Feb 07, 2026</title></rect>
+</g><g transform="translate(462,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>11,129 LOC changed on Feb 08, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,778 LOC changed on Feb 09, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>4,268 LOC changed on Feb 10, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl3"><title>521 LOC changed on Feb 11, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl3"><title>282 LOC changed on Feb 12, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Feb 13, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>660 LOC changed on Feb 14, 2026</title></rect>
+</g><g transform="translate(476,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>616 LOC changed on Feb 15, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>43,811 LOC changed on Feb 16, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>49,872 LOC changed on Feb 17, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Feb 18, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Feb 19, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Feb 20, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Feb 21, 2026</title></rect>
+</g><g transform="translate(490,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Feb 22, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Feb 23, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Feb 24, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Feb 25, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,105 LOC changed on Feb 26, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Feb 27, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Feb 28, 2026</title></rect>
+</g><g transform="translate(504,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 01, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 02, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 03, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,840 LOC changed on Mar 04, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 05, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 06, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>4,751 LOC changed on Mar 07, 2026</title></rect>
+</g><g transform="translate(518,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl3"><title>448 LOC changed on Mar 08, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 09, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 10, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 11, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 12, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 13, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 14, 2026</title></rect>
+</g><g transform="translate(532,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 15, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 16, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 17, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 18, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 19, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 20, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 21, 2026</title></rect>
+</g><g transform="translate(546,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl3"><title>508 LOC changed on Mar 22, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 23, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>4,741 LOC changed on Mar 24, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 25, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>5,102 LOC changed on Mar 26, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl3"><title>201 LOC changed on Mar 27, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 28, 2026</title></rect>
+</g><g transform="translate(560,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 29, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl1"><title>2 LOC changed on Mar 30, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Mar 31, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Apr 01, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Apr 02, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>156,012 LOC changed on Apr 03, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,204,335 LOC changed on Apr 04, 2026</title></rect>
+</g><g transform="translate(574,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>12,041 LOC changed on Apr 05, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>12,469 LOC changed on Apr 06, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>16,840 LOC changed on Apr 07, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>20,349 LOC changed on Apr 08, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>20,871 LOC changed on Apr 09, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>6,939 LOC changed on Apr 10, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl3"><title>591 LOC changed on Apr 11, 2026</title></rect>
+</g><g transform="translate(588,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,111,454 LOC changed on Apr 12, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>10,705 LOC changed on Apr 13, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>5,229 LOC changed on Apr 14, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,993 LOC changed on Apr 15, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl1"><title>28 LOC changed on Apr 16, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>6,442 LOC changed on Apr 17, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>13,917 LOC changed on Apr 18, 2026</title></rect>
+</g><g transform="translate(602,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>4,025 LOC changed on Apr 19, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>4,449 LOC changed on Apr 20, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,314 LOC changed on Apr 21, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,038 LOC changed on Apr 22, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>5,344 LOC changed on Apr 23, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,994 LOC changed on Apr 24, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>7,062 LOC changed on Apr 25, 2026</title></rect>
+</g><g transform="translate(616,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>9,521 LOC changed on Apr 26, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>5,501 LOC changed on Apr 27, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>7,696 LOC changed on Apr 28, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>4,959 LOC changed on Apr 29, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl1"><title>37 LOC changed on Apr 30, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>6,975 LOC changed on May 01, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,083 LOC changed on May 02, 2026</title></rect>
+</g><g transform="translate(630,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl3"><title>503 LOC changed on May 03, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>25,557 LOC changed on May 04, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,154 LOC changed on May 05, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl3"><title>377 LOC changed on May 06, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,604 LOC changed on May 07, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>22,425 LOC changed on May 08, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on May 09, 2026</title></rect>
+</g><g transform="translate(644,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on May 10, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on May 11, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>4,557 LOC changed on May 12, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl2"><title>192 LOC changed on May 13, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>6,443 LOC changed on May 14, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,150 LOC changed on May 15, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>23,903 LOC changed on May 16, 2026</title></rect>
+</g><g transform="translate(658,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>915 LOC changed on May 17, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on May 18, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on May 19, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on May 20, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on May 21, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl3"><title>594 LOC changed on May 22, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on May 23, 2026</title></rect>
+</g><g transform="translate(672,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>12,116 LOC changed on May 24, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl3"><title>519 LOC changed on May 25, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl3"><title>282 LOC changed on May 26, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>868 LOC changed on May 27, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>9,466 LOC changed on May 28, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl1"><title>4 LOC changed on May 29, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>115,467 LOC changed on May 30, 2026</title></rect>
+</g><g transform="translate(686,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl4"><title>8,539 LOC changed on May 31, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>4,349 LOC changed on Jun 01, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl3"><title>436 LOC changed on Jun 02, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,790 LOC changed on Jun 03, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>658 LOC changed on Jun 04, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl3"><title>398 LOC changed on Jun 05, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 06, 2026</title></rect>
+</g><g transform="translate(700,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 07, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 08, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,637 LOC changed on Jun 09, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,335 LOC changed on Jun 10, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,523 LOC changed on Jun 11, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>736 LOC changed on Jun 12, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 13, 2026</title></rect>
+</g><g transform="translate(714,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 14, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl3"><title>442 LOC changed on Jun 15, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>4,312 LOC changed on Jun 16, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>732 LOC changed on Jun 17, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl1"><title>33 LOC changed on Jun 18, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 19, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 20, 2026</title></rect>
+</g><g transform="translate(728,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 21, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 22, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl4"><title>6,189 LOC changed on Jun 23, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,182 LOC changed on Jun 24, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>782 LOC changed on Jun 25, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,542 LOC changed on Jun 26, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 27, 2026</title></rect>
+</g><g transform="translate(742,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl2"><title>94 LOC changed on Jun 28, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,208 LOC changed on Jun 29, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jun 30, 2026</title></rect>
+<rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>3,940 LOC changed on Jul 01, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl4"><title>21,103 LOC changed on Jul 02, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>1,751 LOC changed on Jul 03, 2026</title></rect>
+<rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl4"><title>2,209 LOC changed on Jul 04, 2026</title></rect>
 </g>
   </g>
 </svg>
