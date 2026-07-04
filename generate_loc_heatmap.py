@@ -126,17 +126,33 @@ def clone_and_count(repo, token, author_emails, workdir):
     return per_day
 
 
-def level_for(loc):
-    """Bucket LOC into GitHub's 5 intensity levels (0=empty ... 4=darkest)."""
+def level_for(loc, thresholds):
+    """Bucket LOC into GitHub's 5 intensity levels using thresholds derived
+    from the actual distribution of active days, so the top color is reserved
+    for genuinely standout days instead of being hit by nearly everything."""
     if loc <= 0:
         return 0
-    if loc <= 50:
+    p25, p50, p75 = thresholds
+    if loc <= p25:
         return 1
-    if loc <= 200:
+    if loc <= p50:
         return 2
-    if loc <= 600:
+    if loc <= p75:
         return 3
     return 4
+
+
+def compute_thresholds(values):
+    """Quartile cut points over active (>0) days only."""
+    if not values:
+        return (0, 0, 0)
+    s = sorted(values)
+
+    def pct(p):
+        idx = min(len(s) - 1, int(p * len(s)))
+        return s[idx]
+
+    return (pct(0.25), pct(0.5), pct(0.75))
 
 
 def build_svg(data, weeks=53):
@@ -155,6 +171,8 @@ def build_svg(data, weeks=53):
     total_loc = 0
     active_days = 0
 
+    thresholds = compute_thresholds([v for v in data.values() if v > 0])
+
     col_squares = ""
     while current <= end_date:
         date_str = current.strftime("%Y-%m-%d")
@@ -166,7 +184,7 @@ def build_svg(data, weeks=53):
         y = weekday_idx * step
         col_squares += (
             f'<rect x="0" y="{y}" width="{cell}" height="{cell}" rx="2" ry="2" '
-            f'class="lvl{level_for(loc)}"><title>{loc:,} LOC changed on '
+            f'class="lvl{level_for(loc, thresholds)}"><title>{loc:,} LOC changed on '
             f'{current.strftime("%b %d, %Y")}</title></rect>\n'
         )
         month = current.strftime("%b")
