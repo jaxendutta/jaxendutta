@@ -2,7 +2,6 @@ import os
 import requests
 import subprocess
 import shutil
-import pandas as pd
 from datetime import datetime, timedelta
 
 # 1. Configuration & Authentication
@@ -23,12 +22,13 @@ repos = []
 page = 1
 
 while True:
-    # FIXED: Cleaned up URL string structure so it resolves to ://github.com
-    repos_url = f"https://://github.com/user/repos?per_page=100&page={page}&type=all"
+    # FIXED: Reconstructed with the correct absolute api base domain format
+    repos_url = f"https://github.com{page}&type=all"
     response = requests.get(repos_url, headers=HEADERS)
 
     if response.status_code != 200:
         print(f"❌ API REQUEST FAILED ({response.status_code})")
+        print(f"Response: {response.text[:200]}")
         exit(1)
 
     try:
