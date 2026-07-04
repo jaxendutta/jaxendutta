@@ -13,7 +13,12 @@ if not TOKEN:
     print("Please make sure you added METRICS_TOKEN to your repository secrets.")
     exit(1)
 
-HEADERS = {"Authorization": f"token {TOKEN}"}
+# FIXED: Using modern 'Bearer' authorization header to prevent HTML redirection
+HEADERS = {
+    "Authorization": f"Bearer {TOKEN}",
+    "Accept": "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28"
+}
 DATA = {}
 
 # 2. Fetch all repositories (Public and Private)
@@ -24,19 +29,18 @@ response = requests.get(repos_url, headers=HEADERS)
 # Check if the API request actually succeeded
 if response.status_code != 200:
     print(f"❌ API ERROR ({response.status_code}): Could not fetch repositories.")
-    print(f"Response text from GitHub: {response.text}")
+    print(f"Response text from GitHub: {response.text[:500]}")
     exit(1)
 
 try:
     repos = response.json()
 except Exception as e:
     print(f"❌ JSON Parsing Error: {e}")
-    print(f"Raw body received: {response.text}")
+    print(f"Raw body snippet received: {response.text[:500]}")
     exit(1)
 
 if not isinstance(repos, list):
     print("❌ Unexpected API response format. Expected a list of repositories.")
-    print(f"Received: {repos}")
     exit(1)
 
 print(f"Found {len(repos)} repositories. Starting analysis...")
@@ -45,7 +49,9 @@ print(f"Found {len(repos)} repositories. Starting analysis...")
 for repo in repos:
     repo_name = repo["name"]
     clone_url = repo["clone_url"]
+    
     # Construct authenticated clone URL to securely access private repos
+    # GitHub Actions handles token masking automatically in the logs
     clone_url = clone_url.replace("https://", f"https://x-access-token:{TOKEN}@")
 
     print(f"Analyzing {repo_name}...")
