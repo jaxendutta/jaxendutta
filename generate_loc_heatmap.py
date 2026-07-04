@@ -7,7 +7,13 @@ from datetime import datetime, timedelta
 
 # 1. Configuration & Authentication
 TOKEN = os.environ.get("METRICS_TOKEN")
-HEADERS = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
+
+if not TOKEN:
+    print("❌ ERROR: METRICS_TOKEN environment variable is missing!")
+    print("Please make sure you added METRICS_TOKEN to your repository secrets.")
+    exit(1)
+
+HEADERS = {"Authorization": f"token {TOKEN}"}
 DATA = {}
 
 # 2. Fetch all repositories (Public and Private)
@@ -15,24 +21,37 @@ print("Fetching repository list...")
 repos_url = "https://github.com"
 response = requests.get(repos_url, headers=HEADERS)
 
+# Check if the API request actually succeeded
 if response.status_code != 200:
-    print(f"Error fetching repos: {response.text}")
+    print(f"❌ API ERROR ({response.status_code}): Could not fetch repositories.")
+    print(f"Response text from GitHub: {response.text}")
     exit(1)
 
-repos = response.json()
+try:
+    repos = response.json()
+except Exception as e:
+    print(f"❌ JSON Parsing Error: {e}")
+    print(f"Raw body received: {response.text}")
+    exit(1)
+
+if not isinstance(repos, list):
+    print("❌ Unexpected API response format. Expected a list of repositories.")
+    print(f"Received: {repos}")
+    exit(1)
+
+print(f"Found {len(repos)} repositories. Starting analysis...")
 
 # 3. Analyze each repository
 for repo in repos:
     repo_name = repo["name"]
-    # Construct authenticated clone URL to securely access private repos
     clone_url = repo["clone_url"]
-    if TOKEN:
-        clone_url = clone_url.replace("https://", f"https://x-access-token:{TOKEN}@")
+    # Construct authenticated clone URL to securely access private repos
+    clone_url = clone_url.replace("https://", f"https://x-access-token:{TOKEN}@")
 
     print(f"Analyzing {repo_name}...")
     
-    # Perform a shallow clone (depth 1000 is faster but gets plenty of history)
     try:
+        # Perform a shallow clone (depth 1000 is faster but gets plenty of history)
         subprocess.run(["git", "clone", "--depth=1000", clone_url, repo_name], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         
         # Pull git logs from the repository
@@ -48,7 +67,7 @@ for repo in repos:
                 current_date = line
             elif "changed" in line and current_date:
                 parts = line.split(',')
-                loc = sum(int(p.strip().split()[0]) for p in parts if "insertion" in p or "deletion" in p)
+                loc = sum(int(p.strip().split()) for p in parts if "insertion" in p or "deletion" in p)
                 DATA[current_date] = DATA.get(current_date, 0) + loc
                 
         # Clean up directory to preserve disk space on runner
@@ -95,7 +114,7 @@ while current <= end_date:
         x_offset += 15
     current += timedelta(days=1)
 
-# Compile into a complete, standalone responsive vector graphic
+# Compile into a complete, standalone vector graphic
 full_svg = f"""<svg width="830" height="130" xmlns="http://w3.org">
     <g transform="translate(15, 15)">
         {svg_squares}
