@@ -19,7 +19,7 @@
     }
   </style>
   <rect width="100%" height="100%" fill="transparent"/>
-  <text x="6" y="18" class="hdr">4,961,303 lines of code changed in the last year</text>
+  <text x="6" y="18" class="hdr">4,964,737 lines of code changed in the last year</text>
   <g transform="translate(30,44)">
     <text x="-24" y="10" class="lbl">Mon</text>
     <text x="-24" y="36" class="lbl">Wed</text>
@@ -396,8 +396,9 @@
 <rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl3"><title>2,953 LOC changed on Jul 16, 2026</title></rect>
 <rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl4"><title>48,533 LOC changed on Jul 17, 2026</title></rect>
 <rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl2"><title>1,031 LOC changed on Jul 18, 2026</title></rect>
-</g><g transform="translate(742,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl1"><title>62 LOC changed on Jul 19, 2026</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 20, 2026</title></rect>
+</g><g transform="translate(742,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl1"><title>466 LOC changed on Jul 19, 2026</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl1"><title>466 LOC changed on Jul 20, 2026</title></rect>
+<rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl3"><title>2,564 LOC changed on Jul 21, 2026</title></rect>
 </g>
     <text x="616" y="123" class="lbl">Less</text><rect x="646" y="114" width="11" height="11" rx="2" ry="2" class="lvl0"/><rect x="660" y="114" width="11" height="11" rx="2" ry="2" class="lvl1"/><rect x="674" y="114" width="11" height="11" rx="2" ry="2" class="lvl2"/><rect x="688" y="114" width="11" height="11" rx="2" ry="2" class="lvl3"/><rect x="702" y="114" width="11" height="11" rx="2" ry="2" class="lvl4"/><text x="722" y="123" class="lbl">More</text>
   </g>
