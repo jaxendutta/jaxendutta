@@ -19,7 +19,7 @@
     }
   </style>
   <rect width="100%" height="100%" fill="transparent"/>
-  <text x="6" y="18" class="hdr">4,974,381 lines of code changed in the last year</text>
+  <text x="6" y="18" class="hdr">4,977,432 lines of code changed in the last year</text>
   <g transform="translate(30,44)">
     <text x="-24" y="10" class="lbl">Mon</text>
     <text x="-24" y="36" class="lbl">Wed</text>
@@ -89,7 +89,7 @@
 <rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Sep 12, 2025</title></rect>
 <rect x="0" y="84" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Sep 13, 2025</title></rect>
 </g><g transform="translate(126,0)"><rect x="0" y="0" width="11" height="11" rx="2" ry="2" class="lvl3"><title>2,287 LOC changed on Sep 14, 2025</title></rect>
-<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl3"><title>1,887 LOC changed on Sep 15, 2025</title></rect>
+<rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl2"><title>1,887 LOC changed on Sep 15, 2025</title></rect>
 <rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl1"><title>10 LOC changed on Sep 16, 2025</title></rect>
 <rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl1"><title>9 LOC changed on Sep 17, 2025</title></rect>
 <rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl1"><title>485 LOC changed on Sep 18, 2025</title></rect>
@@ -400,7 +400,8 @@
 <rect x="0" y="14" width="11" height="11" rx="2" ry="2" class="lvl1"><title>466 LOC changed on Jul 20, 2026</title></rect>
 <rect x="0" y="28" width="11" height="11" rx="2" ry="2" class="lvl3"><title>5,927 LOC changed on Jul 21, 2026</title></rect>
 <rect x="0" y="42" width="11" height="11" rx="2" ry="2" class="lvl4"><title>6,281 LOC changed on Jul 22, 2026</title></rect>
-<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 23, 2026</title></rect>
+<rect x="0" y="56" width="11" height="11" rx="2" ry="2" class="lvl3"><title>3,051 LOC changed on Jul 23, 2026</title></rect>
+<rect x="0" y="70" width="11" height="11" rx="2" ry="2" class="lvl0"><title>0 LOC changed on Jul 24, 2026</title></rect>
 </g>
     <text x="616" y="123" class="lbl">Less</text><rect x="646" y="114" width="11" height="11" rx="2" ry="2" class="lvl0"/><rect x="660" y="114" width="11" height="11" rx="2" ry="2" class="lvl1"/><rect x="674" y="114" width="11" height="11" rx="2" ry="2" class="lvl2"/><rect x="688" y="114" width="11" height="11" rx="2" ry="2" class="lvl3"/><rect x="702" y="114" width="11" height="11" rx="2" ry="2" class="lvl4"/><text x="722" y="123" class="lbl">More</text>
   </g>
